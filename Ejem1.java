@@ -17,10 +17,10 @@ class Usuario {
 public class Ejem1 {
 
     public static void main(String[] args) {
-        Usuario usuario1 = new Usuario("Dregan", "Ganon");
-        Usuario usuario2 = new Usuario("Edric", "Jobs");
+        Usuario usuario1 = new Usuario("John", "Doe");
+        Usuario usuario2 = new Usuario("Foo", "Bar");
 
         System.out.println(usuario2.equals(usuario1));
-        System.out.println(usuario2.equals(usuario2));
+        System.out.println(usuario1.toString());
     }
 }
